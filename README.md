@@ -1,4 +1,4 @@
-# Repositorio de la aplicaion web To Do List realizada en React.js
+# Repositorio de la aplicación web To Do List realizada en React.js
 
 ¡Hola!
 
