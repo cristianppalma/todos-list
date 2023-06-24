@@ -1,3 +1,28 @@
+body {
+  /* background: url("./fondo-3.jpg") no-repeat; */
+  /* background-size: cover; */
+  background: linear-gradient(90deg, rgba(250,250,250,1), rgb(200, 199, 199));
+}
+
+.container-todolist {
+  width: 50%;
+  margin:50px auto;
+  background-color: #fcfcda;
+  border-radius: 30px;
+  /* padding-bottom: 10px; */
+}
+
+@media screen and (max-width: 992px) {
+  .container-todolist {
+    width: 80%;
+    margin: 50px auto 90px auto;
+    background-color: #fcfcda;
+
+  }
+}
+
+
+/* comentario */
 .App {
   text-align: center;
 }

@@ -1,0 +1,62 @@
+.TodoItem {
+    background-color: #979783;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow:  0px 5px 50px rgba(32, 35, 41, 0);
+    /* margin: 10px 20px; */
+    /* list-style: none; */
+    width: 70%;
+    /* height: 4rem; */
+    border-radius: 30px;
+}
+
+.TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    /* border: none; */
+    /* cursor: pointer; */
+    /* background: url("../src/circle.svg") no-repeat; */
+    /* background-size: 90%; */
+    /* background-position: center center; */
+  }
+  
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+    /* background: url("../src/circle-check.svg") no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    width: 2.5em;
+    height: 2.5em;
+    border: none;
+    cursor: pointer; */
+  }
+
+  @media screen and (max-width: 992px) {
+    .TodoItem {
+      margin: 10px 0px;
+      list-style: none;
+      width: 90%;
+    }
+  }
+
+/* .close-item {
+    background: url("../src/x.svg") no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    width: 1.2em;
+    height: 1.2em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-item:hover {
+    background: url("../src/x-red.svg") no-repeat;
+    background-size: 90%;
+    background-position: center center;
+  } */
