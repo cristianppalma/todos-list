@@ -6,6 +6,8 @@ Para empezar solo debes clonar este repositorio (`git clone`), instalar sus depe
 
 La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
 
+Aquí te muestro la url del proyecto desplegado:
+https://cristianppalma.github.io/todos-list/
 
 ## Getting Started with Create React App
 
